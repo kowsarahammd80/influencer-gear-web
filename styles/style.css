@@ -1,0 +1,37 @@
+ /* fonts add  */
+ @import url('https://fonts.googleapis.com/css2?family=Crete+Round:ital@0;1&family=Poppins:wght@400;500;700&family=Roboto&family=Roboto+Mono:ital@1&display=swap');
+
+ body{
+  font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+   margin: ;
+ }
+   /* start journey style start  */
+.journey-items{
+  /* display: grid;
+  grid-template-columns: 1fr 1fr */
+  display: flex;
+  margin: 20px;
+}
+.blog-items{
+  width: 582px; 
+  height: 270px;
+  margin-left: 120px;
+  /* margin-top: 285px; */
+}
+.img-item {
+  width: 440px;
+  height: 414px;
+  /* margin-top: 211px; */
+  margin-left: 192px;
+}
+.link-button{
+  background-color: 
+  #E02C6D;
+  padding: 10px 24px  10px  24px;
+  color: aliceblue;
+  border: none;
+  border-radius: 10px;
+  font-weight: 800;
+  font-size: 20px;
+}
