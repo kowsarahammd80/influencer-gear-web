@@ -147,7 +147,7 @@ nav{
 /* midea queris  */
  /* for mobaile */
 
-@media screen and (max-width: 688px){
+@media screen and (max-width: 688px) {
   nav{
     display: none;
   }
@@ -168,10 +168,7 @@ nav{
   grid-template-columns: repeat(3,1fr);
 
 }
-.product-headline{
-  margin-left: 100px;
-  margin-top: 120px;
-}
+
 .products{
    width: 100%;
     grid-template-columns: repeat(1, 1fr);
@@ -194,5 +191,7 @@ footer{
   display: none;
 
 }
-
+.product-headline{
+  margin-left: 100px;
+}
 }
