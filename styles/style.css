@@ -168,6 +168,10 @@ nav{
   grid-template-columns: repeat(3,1fr);
 
 }
+.product-headline{
+  margin-left: 100px;
+  margin-top: 120px;
+}
 .products{
    width: 100%;
     grid-template-columns: repeat(1, 1fr);
@@ -177,9 +181,13 @@ nav{
   width: 100%; 
 }
 
+
 .featured-items{
   width: 100%;
   flex-direction: column-reverse;
+}
+.featured-img{
+  margin-left: 80px;
 }
 
 footer{
