@@ -4,7 +4,7 @@
  body{
   font-family: 'Poppins', sans-serif;
     font-size: 25px;
-   margin: ;
+    background-color:  whitesmoke;
  }
    /* start journey style start  */
 .journey-items{
@@ -31,7 +31,59 @@
   padding: 10px 24px  10px  24px;
   color: aliceblue;
   border: none;
-  border-radius: 10px;
+  border-radius: 20px;
   font-weight: 800;
   font-size: 20px;
+}
+
+
+  /* company items start  */
+ 
+  .companys {
+    width: 1110px;
+    height: 110px;
+    display: flex;
+     justify-content: center;
+    margin-top: 271px;
+     align-items: center;
+    justify-content: space-evenly;
+    margin-left: 165px; 
+    border-bottom: 1px solid grey;
+    border-top: 1px solid grey;
+}
+    /* companny-items end  */
+     
+    /* product-item start  */
+    .product-container{
+      
+    }
+
+.product-headline{
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+.products {
+   display: grid;
+   grid-template-columns: repeat(3,1fr); 
+  margin-top: 60px;
+}
+.product {
+   background-color: white;
+  margin: 20px;
+}
+.product-banner img{
+   width: 350px;
+  margin-top: 20px;
+  /* padding-left: 20px; */
+  margin-left: 40px;
+  margin-right: px;
+}
+.product-info {
+   margin-left: 20px;
+  margin-top: -15px;
+} 
+.fa-solid.field{
+  color: gold;
 }
